@@ -1,0 +1,11 @@
+h1 {
+    color: red;
+}
+.game-board {
+    display: grid;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(3, 100px);
+}
+.square {
+    border: solid;
+}
